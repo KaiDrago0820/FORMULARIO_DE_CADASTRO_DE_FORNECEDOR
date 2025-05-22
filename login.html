@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/fornecedor">Cadastro Fornecedor</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+    </nav>
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+        <label>Usuário:</label>
+        <input type="text" name="username" required>
+        <label>Senha:</label>
+        <input type="password" name="password" required>
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>

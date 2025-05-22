@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Fornecedor</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/fornecedor">Cadastro Fornecedor</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+    </nav>
+    <h1>Cadastro de Fornecedor</h1>
+    <form action="/fornecedor" method="POST">
+        <label>CNPJ:</label>
+        <input type="text" name="cnpj" required>
+
+        <label>Razão Social:</label>
+        <input type="text" name="razao" required>
+
+        <label>Nome Fantasia:</label>
+        <input type="text" name="fantasia" required>
+
+        <label>Endereço:</label>
+        <input type="text" name="endereco" required>
+
+        <label>Cidade:</label>
+        <input type="text" name="cidade" required>
+
+        <label>UF:</label>
+        <select name="uf" required>
+            <option value="">Selecione</option>
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>RS</option>
+            <option>PR</option>
+        </select>
+
+        <label>CEP:</label>
+        <input type="text" name="cep" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Telefone:</label>
+        <input type="text" name="telefone" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+        <a href="https://github.com/KaiDrago0820/FORMULARIO_DE_CADASTRO_DE_FORNECEDOR" target="_blank">Acessar github</a>
+        <a href="https://www.w3schools.com" target="_blank">Acessar vercel</a>
+
+</body>
+</html>
